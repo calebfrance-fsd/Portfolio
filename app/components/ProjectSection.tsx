@@ -23,6 +23,8 @@ const ProjectSection = () => {
                       src={item.image}
                       alt={item.name}
                       fill
+                      placeholder="blur"
+                      priority
                       className="object-cover"
                     />
                   </div>
